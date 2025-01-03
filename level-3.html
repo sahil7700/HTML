@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>hello table</caption>
+        <tr>
+            <th>hello</th>
+            <th>world</th>
+        </tr>
+        <tr>
+            <td>hello</td>
+            <td>baby</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- semantics in table 
+     thead
+     tbody
+     tfooter
+     -->
+
+     <!-- colspan and rowspan -->
+
+     <table border="black">
+        <thead>
+            <tr>
+                <th rowspan="2">item</th>
+                <th colspan="2">price</th>
+            </tr>
+            <tr>
+                <th>half</th>
+                <th>full</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>momos</td>
+                <td>20</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>roll</td>
+                <td>30</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>drink</td>
+                <td>20</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <hr><br>
+
+     <!-- forms -->
+
+     <form action="form-input.txt">
+        <div>
+            <label for="username">username : </label>
+            <input type="text" placeholder="enter username" id="username" name="user">
+        </div>
+        <div>
+            <label for="password">password : </label>
+            <input type="password" placeholder="enter userpassword" id="password" name="pass">
+        </div>
+        <div>
+            <label for="age">age : </label>
+            <input type="number" placeholder="enter userage" id="age" name="age">
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>
